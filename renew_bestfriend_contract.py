@@ -20,7 +20,7 @@ def yes_renew():
             t.left(90)
         t.end_fill()
 
-    # Draw the base of the cake
+    #  base of the cake
     t.penup()
     t.goto(-125, -50)
     t.pendown()
@@ -60,9 +60,9 @@ def yes_renew():
         t.penup()
         t.goto(-65 + i * 60, 245)
         t.pendown()
-        t.dot(10, "orange")  # Flame on top
+        t.dot(10, "orange")  
 
-    # Write "Happy New Year"
+    
     t.penup()
     t.goto(-190, -80)
     t.color("white")
@@ -79,14 +79,16 @@ def no_renew():
     t = turtle.Turtle()
     t.speed(1)
 
+    # draw the face
     t.penup()
     t.goto(-10, -100)
-    t.pencolor("white")  # Set the pen color
-    t.fillcolor('Orange')  # Set the fill color
+    t.pencolor("white")  
+    t.fillcolor('Orange')  
     t.begin_fill()
     t.circle(180)
     t.end_fill()
 
+    # draw the eyes
     t.penup()
     t.goto(50, 100)
     t.pendown()
@@ -162,7 +164,7 @@ def no_renew():
     t.circle(50, 180)
     t.end_fill()
     
-    # Write "Happy New Year"
+    
     t.penup()
     t.goto(-190, -150)
     t.color("white")
